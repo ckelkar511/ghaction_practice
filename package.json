@@ -1,0 +1,12 @@
+{
+  "name": "ghaction-practice",
+  "version": "1.0.0",
+  "description": "GitHub Actions learning project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Test passed ✅\""
+  },
+  "author": "Chaitanya",
+  "license": "MIT"
+}
