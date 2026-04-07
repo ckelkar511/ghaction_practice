@@ -9,13 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Node
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-
-      - name: Verify Node installation
-        run: node -v
+          node-version: 18
 
       - name: Install deps
         run: npm install
