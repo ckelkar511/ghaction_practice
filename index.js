@@ -1,1 +1,1 @@
-echo "console.log('CI working 🚀');"
+console.log("CI is working 🚀");
